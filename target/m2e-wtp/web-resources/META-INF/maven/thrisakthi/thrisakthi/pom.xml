@@ -14,8 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+	    <groupId>org.mongodb</groupId>
+	    <artifactId>mongo-java-driver</artifactId>
+	    <version>3.5.0</version>
+	</dependency>
   </dependencies>
   <build>
-    <finalName>thrisakthi</finalName>
-  </build>
+		<finalName>ROOT</finalName>
+	</build>
 </project>
